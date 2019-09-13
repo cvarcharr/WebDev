@@ -3,19 +3,30 @@
 
 body {
 	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
-
+	text-align: center;
+	background-color: #F4F9FB
 }
 
 table {
   	border-style: groove;
 	border-color: #1C845B;
 	border-width: 5px;
+	border-spacing: 5px;
 	padding: 5px;
+	margin: 0 auto;
+	width: 60%;
 }
 
 th, td {
-  	padding: 12px;
-  	text-align: left;
+	border-style: solid;
+	border-width: 2px;
+	padding: 5px;
+	text-align: center;
+}
+
+ol li {
+  	text-align: center;
+  	font-weight: bold;
 }
 
 h1 {
