@@ -1,2 +1,33 @@
 @charset "utf-8";
 /* CSS Document */
+
+body {
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+
+}
+
+table {
+  	border-style: groove;
+	border-color: #1C845B;
+	border-width: 5px;
+	padding: 5px;
+}
+
+th, td {
+  	padding: 12px;
+  	text-align: left;
+}
+
+h1 {
+	text-align: center;
+  	color: navy;
+  	text-shadow: 3px 2px #83E9F9;
+  	font-family: "Lucida Console", Monaco, monospace;
+  	font-style: oblique;
+}
+
+h2 {
+	text-align: center;
+  	color: navy;
+  	font-family: "Trebuchet MS", Helvetica, sans-serif;
+}
